@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThanhToanActivity"
+    android:orientation="vertical"
+    android:background="#f2f2f2">
+
+    <RelativeLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="10dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/txtManhinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:text="Màn hình máy tính "
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/sp1"
+            android:layout_width="190dp"
+            android:layout_height="280dp"
+            android:background="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sp2"
+            android:layout_width="190dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:background="#fff"
+            android:layout_toRightOf="@id/sp1"
+
+            >
+
+            <ImageView
+                android:id="@+id/anhsp2"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/anhsp1"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tensp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/anhsp2"
+                android:layout_marginLeft="10dp"
+                android:text="Sản phẩm 2"
+
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large">
+
+            </TextView>
+            <TextView
+                android:id="@+id/giasp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tensp2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="đ170.000"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/sp3"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:background="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sp4"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="30dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/sp5"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:background="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sp6"
+            android:layout_width="170dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="30dp"
+            android:background="#fff"
+            android:layout_marginTop="20dp"
+            >
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </LinearLayout>
